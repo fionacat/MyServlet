@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="MyServlet:war exploded">
+    <output-path>D:/tomcat/apache-tomcat-7.0.90-windows-x64/apache-tomcat-7.0.90/webapps/MyServlet</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="MyServlet/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="MyServlet" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.12.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

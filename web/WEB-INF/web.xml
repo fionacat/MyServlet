@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+    <servlet>
+        <servlet-name>MyServlet</servlet-name>
+        <servlet-class>com.ljy.MyServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>MyServlet</servlet-name>
+        <url-pattern>/MyServlet</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Message</servlet-name>
+        <servlet-class>com.ljy.Message</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Message</servlet-name>
+        <url-pattern>/Message</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>SubmitMessage</servlet-name>
+        <servlet-class>com.ljy.SubmitMessage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SubmitMessage</servlet-name>
+        <url-pattern>/SubmitMessage</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>Management</servlet-name>
+        <servlet-class>com.ljy.Management</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>Management</servlet-name>
+        <url-pattern>/Management</url-pattern>
+    </servlet-mapping>
+</web-app>
